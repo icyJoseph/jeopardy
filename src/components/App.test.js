@@ -17,4 +17,10 @@ describe("App", () => {
   it("displays the `mainTitle` defined in constants", () => {
     expect(app.find(".display-1").text()).toEqual(constants.mainTitle);
   });
+
+  describe("displays 20 categories of jeopardy", () => {
+    it("has a button to `GET` the categories", () => {
+      expect(app.find(".btn-get-categories").exists()).toBe(true);
+    });
+  });
 });
