@@ -1,8 +1,10 @@
 # Jeopardy
 
+[![Build Status](https://travis-ci.org/icyJoseph/jeopardy.svg?branch=master)](https://travis-ci.org/icyJoseph/jeopardy)
+
 ## About
 
-Jeopardy game. Uses redux-saga to encapsulate actions. 
+Jeopardy game. Uses redux-saga to encapsulate actions.
 
 * At this point the Jeopardy game is able to fetch and list categories from [Jservice.io](http://www.jservice.io/)
 
