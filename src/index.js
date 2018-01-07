@@ -8,6 +8,7 @@ import "./index.css";
 
 import App from "./components/App";
 import rootReducer from "./reducers";
+import rootSaga from "./sagas";
 
 const initialState = { categories: [] };
 
@@ -20,6 +21,8 @@ const store = createStore(
     window.devToolsExtension ? window.devToolsExtension() : f => f
   )
 );
+
+sagaMiddleware.run(rootSaga);
 
 render(
   <Provider store={store}>
