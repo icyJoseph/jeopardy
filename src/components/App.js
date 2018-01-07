@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button } from "reactstrap";
 import * as constants from "../constants";
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       <div>
