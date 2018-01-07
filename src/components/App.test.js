@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import App from "./App";
+import { App } from "./App";
 import * as constants from "../constants";
 
 describe("App", () => {
@@ -22,7 +22,7 @@ describe("App", () => {
     it("has a button to `GET` the categories", () => {
       let getCatsBtn = app.find(".btn-get-categories");
       expect(getCatsBtn.exists()).toBe(true);
-      expect(getCatsBtn.text()).toEqual(constants.GET_CATS_BTN);
+      expect(getCatsBtn.render().text()).toEqual(constants.GET_CATS_BTN);
     });
   });
 });
