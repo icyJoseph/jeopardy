@@ -7,5 +7,6 @@ export const GET_CATS_BTN = "Get Jeopardy Categories";
 
 export const types = {
   GET_CATEGORIES: "get_categories",
-  LOAD_CATEGORIES: "load_categories"
+  LOAD_CATEGORIES: "load_categories",
+  FAILED_GET_CATEGORIES: "failed_get_categories"
 };
