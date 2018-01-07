@@ -17,41 +17,24 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h2
-        className="display-1"
->
-        Welcome to Jeopardy
-</h2>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Welcome to Jeopardy",
-        "className": "display-1",
-      },
-      "ref": null,
-      "rendered": "Welcome to Jeopardy",
-      "type": "h2",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <h2
+      "children": Array [
+        <h2
           className="display-1"
 >
           Welcome to Jeopardy
 </h2>,
-      },
-      "ref": null,
-      "rendered": Object {
+        <Button
+          className="btn-get-categories"
+          color="secondary"
+          tag="button"
+>
+          Get Jeopardy Categories
+</Button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -63,6 +46,73 @@ ShallowWrapper {
         "rendered": "Welcome to Jeopardy",
         "type": "h2",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Get Jeopardy Categories",
+          "className": "btn-get-categories",
+          "color": "secondary",
+          "tag": "button",
+        },
+        "ref": null,
+        "rendered": "Get Jeopardy Categories",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="display-1"
+>
+            Welcome to Jeopardy
+</h2>,
+          <Button
+            className="btn-get-categories"
+            color="secondary"
+            tag="button"
+>
+            Get Jeopardy Categories
+</Button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Welcome to Jeopardy",
+            "className": "display-1",
+          },
+          "ref": null,
+          "rendered": "Welcome to Jeopardy",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Get Jeopardy Categories",
+            "className": "btn-get-categories",
+            "color": "secondary",
+            "tag": "button",
+          },
+          "ref": null,
+          "rendered": "Get Jeopardy Categories",
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],
