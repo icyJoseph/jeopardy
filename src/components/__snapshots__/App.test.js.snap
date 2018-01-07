@@ -17,7 +17,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h2>
+      "children": <h2
+        className="display-1"
+>
         Welcome to Jeopardy
 </h2>,
     },
@@ -28,6 +30,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "Welcome to Jeopardy",
+        "className": "display-1",
       },
       "ref": null,
       "rendered": "Welcome to Jeopardy",
@@ -41,7 +44,9 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h2>
+        "children": <h2
+          className="display-1"
+>
           Welcome to Jeopardy
 </h2>,
       },
@@ -52,6 +57,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Welcome to Jeopardy",
+          "className": "display-1",
         },
         "ref": null,
         "rendered": "Welcome to Jeopardy",
