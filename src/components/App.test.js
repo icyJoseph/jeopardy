@@ -20,7 +20,9 @@ describe("App", () => {
 
   describe("displays 20 categories of jeopardy", () => {
     it("has a button to `GET` the categories", () => {
-      expect(app.find(".btn-get-categories").exists()).toBe(true);
+      let getCatsBtn = app.find(".btn-get-categories");
+      expect(getCatsBtn.exists()).toBe(true);
+      expect(getCatsBtn.text()).toEqual(constants.GET_CATS_BTN);
     });
   });
 });
