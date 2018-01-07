@@ -9,6 +9,13 @@ export class App extends Component {
     return (
       <div>
         <h2 className="display-1">{constants.mainTitle}</h2>
+        <ul style={{ listStyle: "none" }}>
+          {categories.map(cat => (
+            <li key={cat.id} className="cat-title">
+              {cat.title}
+            </li>
+          ))}
+        </ul>
         <Button
           className="btn-get-categories"
           onClick={() =>

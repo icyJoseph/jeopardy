@@ -26,6 +26,15 @@ ShallowWrapper {
 >
           Welcome to Jeopardy
 </h2>,
+        <ul
+          style={
+                    Object {
+                              "listStyle": "none",
+                            }
+          }
+>
+          
+</ul>,
         <Button
           className="btn-get-categories"
           color="secondary"
@@ -49,6 +58,20 @@ ShallowWrapper {
         "ref": null,
         "rendered": "Welcome to Jeopardy",
         "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+          "style": Object {
+            "listStyle": "none",
+          },
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "ul",
       },
       Object {
         "instance": null,
@@ -80,6 +103,15 @@ ShallowWrapper {
 >
             Welcome to Jeopardy
 </h2>,
+          <ul
+            style={
+                        Object {
+                                    "listStyle": "none",
+                                  }
+            }
+>
+            
+</ul>,
           <Button
             className="btn-get-categories"
             color="secondary"
@@ -103,6 +135,20 @@ ShallowWrapper {
           "ref": null,
           "rendered": "Welcome to Jeopardy",
           "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "style": Object {
+              "listStyle": "none",
+            },
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "ul",
         },
         Object {
           "instance": null,
