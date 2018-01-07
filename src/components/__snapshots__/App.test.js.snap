@@ -26,6 +26,7 @@ ShallowWrapper {
         <Button
           className="btn-get-categories"
           color="secondary"
+          onClick={[Function]}
           tag="button"
 >
           Get Jeopardy Categories
@@ -54,6 +55,7 @@ ShallowWrapper {
           "children": "Get Jeopardy Categories",
           "className": "btn-get-categories",
           "color": "secondary",
+          "onClick": [Function],
           "tag": "button",
         },
         "ref": null,
@@ -78,6 +80,7 @@ ShallowWrapper {
           <Button
             className="btn-get-categories"
             color="secondary"
+            onClick={[Function]}
             tag="button"
 >
             Get Jeopardy Categories
@@ -106,6 +109,7 @@ ShallowWrapper {
             "children": "Get Jeopardy Categories",
             "className": "btn-get-categories",
             "color": "secondary",
+            "onClick": [Function],
             "tag": "button",
           },
           "ref": null,
